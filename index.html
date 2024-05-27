@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./BlueTeam.ico" type="image/png">
+    <title>Script SOC</title>
+    </head>
+<body>
+	<script src="codigo.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <div class="container">
+        
+        <form id="ipForm">
+			<img src="BlueTeam.png" height="100" width="100"> <br><br>
+            <label for="ipAddresses"><strong>Digite os endereços e portas (cada um em uma nova linha)</strong>: </label><br>
+            <textarea id="ipAddresses" name="ipAddresses" rows="10" cols="80"></textarea><br><br>
+            <label for="nomegrupo"><strong>Nome do grupo: GrpH_</strong></label>
+            <input type="text" id="nomegrupo" name="nomegrupo"><br><br>
+            <div class="button-container">
+                <button id="btnVerificar" type="button" onclick="limparResultado(),main()"><strong>Verificar</strong></button>
+                <button id="btnCopiar" type="button" onclick="copiarResultado()"><strong>Copiar Conteúdo</strong></button>
+            </div>
+            <textarea id="result" rows="20" cols="80" readonly></textarea>
+        </form>
+    </div>
+
+	</body>
+</html>

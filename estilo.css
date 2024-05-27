@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #060622;
+}
+.container {
+    background-color: #F5EFED;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    /*align-items: center; */
+    flex-direction: column;
+}
+#btnVerificar {
+    background-color: #2292A4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-items: center;
+}
+#btnCopiar {
+    background-color: #54442B;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+#result, #ipAddresses, #nomegrupo {
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 20px;
+}
